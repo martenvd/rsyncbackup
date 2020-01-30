@@ -7,11 +7,6 @@ import time
 from sh import rsync
 from sh import ssh
 
-# todo 1) Cas' feedback verwerken
-# todo 2) Testen op meerdere hosts
-# todo 3) Borg gebruiken (incremental backup)
-# todo 4) Windows host ondersteuning
-
 
 backupdir = "/backups/"
 host_list = []
